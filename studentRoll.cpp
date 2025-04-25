@@ -32,7 +32,7 @@ std::string StudentRoll::toString() const
   std::string result = "";
   if (head == NULL)
   {
-    return result;
+    return "[]";
   }
   Node *progress_node = head;
   result += "[";
